@@ -6,6 +6,5 @@ $("#request").on("click", function(){
 });
 request.fail(function(jqXHR, textStatus, errorThrown){
     console.log(textStatus,errorThrown);
-    
-});
 
+});
