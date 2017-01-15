@@ -12,8 +12,8 @@ bt.addEventListener("click",function(){
       }else{
         res = JSON.parse(this.responseText);
         console.log(res);
-        Qarea.innerHTML = res.quote;
-        document.title = res.tag;
+        Qarea.innerHTML = res.text;
+        document.title = "Цитата #"+res.number;
 
       }
     }
