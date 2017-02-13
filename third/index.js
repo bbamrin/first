@@ -1,13 +1,15 @@
-/*var express = require("express"),
+
+var express = require("express"),
     cors = require("cors");
+
 var app = express();
 app.use(cors());
 app.get("/", function(request,response){
-  response.send("Hello, Node.js!");
+  response.redirect("index.html");
 });
-app.listen(7500);*/
+app.listen(7500);
 
-var wss = require("ws").Server;
+/*var wss = require("ws").Server;
 var server = new wss({port:591});
 var clients = new Set();
 server.on("connection",function(socket){
@@ -22,4 +24,4 @@ server.on("connection",function(socket){
   socket.on("close",function(){
     clients.delete(socket);
   });
-});
+});*/

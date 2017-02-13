@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <meta charset= "utf-8">
+  <title>Холст</title>
+</head>
+<body id = "body">
+<form method = "post" id = "f"  action = "http://localhost:7500/" onsubmit="
+function enter(form){
+  if($('#body').keydown(function(event)){
+    if(event.keyCode == 13){return true;}
+  })
+  {
+    form.submit;
+  }
+}
+enter(this);">
+<input name = "login">
+<input name = "pass">
+<button id = "b" type = "submit">PRESS HERE</button>
+</form>
+</body>
+</html>

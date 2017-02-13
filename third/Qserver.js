@@ -20,7 +20,7 @@ fs.readFile("quotes.txt","utf-8",function(err,content){
     index = Math.floor(Math.random() * (max - min)) + min;
     struct.text = dict[index];
     struct.number = index;
-    console.log(max);
+    console.log(index);
     Jstruct = JSON.stringify(struct);
     response.send(Jstruct);
   });

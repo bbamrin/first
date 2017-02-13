@@ -1,5 +1,5 @@
 ws = require("ws").Server;
-var data = "";
+var data = " ";
 var server = new ws({port: 7500});
 var clients = new Set();
 server.on("connection",function(socket){
