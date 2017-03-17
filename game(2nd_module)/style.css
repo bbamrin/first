@@ -1,0 +1,21 @@
+body,html{
+    margin: 0;
+    height:100%;
+}
+body{
+    background-color: #333;
+}
+#map {
+    display:block;
+    margin:30px auto 0;
+    background-color: white;
+}
+#player, #enemy{
+    display:block;
+    margin: -500px auto 0;
+}
+h1{
+    color:white;
+    font-family: monospace;
+    text-align: center;
+}
